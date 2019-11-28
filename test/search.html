@@ -1,0 +1,1710 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>search</title>
+</head>
+<body>
+	<p>
+		入力してください
+
+	</p>
+
+	<form id="calSearchForm" action="/lesson/search" method="post">
+		<input id="word" name="word" type="text" value=""/>
+		
+		<select id="foodcate" name="foodcate"><option value="指定なし">指定なし</option><option value="基本メニュー">基本メニュー</option><option value="和食">和食</option><option value="洋食">洋食</option><option value="中華">中華</option><option value="デザート/飲み物">デザート/飲み物</option></select>
+		<input type="submit" value="検索">
+		<br />
+	</form>
+
+	<br />
+	
+		<table border="1">
+			<tr>
+				<th>名前</th>
+				<th>kcal</th>
+				<th>追加</th>
+			</tr>
+			
+				<tr>
+					<td>ご飯1膳軽盛り(100g)</td>
+					<td>168</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ご飯1膳軽盛り(100g)">
+					    <input type="hidden" name="foodcal" value="168">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ご飯1膳普通盛り(140g)</td>
+					<td>235</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ご飯1膳普通盛り(140g)">
+					    <input type="hidden" name="foodcal" value="235">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ご飯1膳大盛り(240g)</td>
+					<td>403</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ご飯1膳大盛り(240g)">
+					    <input type="hidden" name="foodcal" value="403">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>食パン1枚(6枚切り)</td>
+					<td>177</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="食パン1枚(6枚切り)">
+					    <input type="hidden" name="foodcal" value="177">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>食パン1枚(8枚切り)</td>
+					<td>132</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="食パン1枚(8枚切り)">
+					    <input type="hidden" name="foodcal" value="132">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>カツ丼</td>
+					<td>893</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="カツ丼">
+					    <input type="hidden" name="foodcal" value="893">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>親子丼</td>
+					<td>731</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="親子丼">
+					    <input type="hidden" name="foodcal" value="731">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>天丼</td>
+					<td>805</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="天丼">
+					    <input type="hidden" name="foodcal" value="805">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>牛丼</td>
+					<td>909</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="牛丼">
+					    <input type="hidden" name="foodcal" value="909">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>卵丼</td>
+					<td>630</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="卵丼">
+					    <input type="hidden" name="foodcal" value="630">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>鉄火丼</td>
+					<td>649</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="鉄火丼">
+					    <input type="hidden" name="foodcal" value="649">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ねぎとろ丼</td>
+					<td>786</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ねぎとろ丼">
+					    <input type="hidden" name="foodcal" value="786">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>中華丼</td>
+					<td>841</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="中華丼">
+					    <input type="hidden" name="foodcal" value="841">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>鰻重</td>
+					<td>754</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="鰻重">
+					    <input type="hidden" name="foodcal" value="754">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>五目チラシ</td>
+					<td>618</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="五目チラシ">
+					    <input type="hidden" name="foodcal" value="618">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>刺身定食</td>
+					<td>489</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="刺身定食">
+					    <input type="hidden" name="foodcal" value="489">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>あじの塩焼き定食</td>
+					<td>480</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="あじの塩焼き定食">
+					    <input type="hidden" name="foodcal" value="480">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ブリの照り焼き定食</td>
+					<td>646</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ブリの照り焼き定食">
+					    <input type="hidden" name="foodcal" value="646">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>サバのみそ煮定食</td>
+					<td>687</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="サバのみそ煮定食">
+					    <input type="hidden" name="foodcal" value="687">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>生姜焼き定食</td>
+					<td>789</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="生姜焼き定食">
+					    <input type="hidden" name="foodcal" value="789">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>鶏の照焼定食</td>
+					<td>776</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="鶏の照焼定食">
+					    <input type="hidden" name="foodcal" value="776">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ぞうすい</td>
+					<td>336</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ぞうすい">
+					    <input type="hidden" name="foodcal" value="336">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>梅茶づけ</td>
+					<td>171</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="梅茶づけ">
+					    <input type="hidden" name="foodcal" value="171">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>天ぷらそば</td>
+					<td>459</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="天ぷらそば">
+					    <input type="hidden" name="foodcal" value="459">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ざるそば</td>
+					<td>284</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ざるそば">
+					    <input type="hidden" name="foodcal" value="284">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>かけそば</td>
+					<td>324</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="かけそば">
+					    <input type="hidden" name="foodcal" value="324">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>たぬきそば</td>
+					<td>376</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="たぬきそば">
+					    <input type="hidden" name="foodcal" value="376">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>きつねうどん</td>
+					<td>382</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="きつねうどん">
+					    <input type="hidden" name="foodcal" value="382">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>月見うどん</td>
+					<td>419</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="月見うどん">
+					    <input type="hidden" name="foodcal" value="419">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>焼きそば</td>
+					<td>570</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="焼きそば">
+					    <input type="hidden" name="foodcal" value="570">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>お好み焼き</td>
+					<td>553</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="お好み焼き">
+					    <input type="hidden" name="foodcal" value="553">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>広島焼き</td>
+					<td>633</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="広島焼き">
+					    <input type="hidden" name="foodcal" value="633">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>たこやき</td>
+					<td>270</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="たこやき">
+					    <input type="hidden" name="foodcal" value="270">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ヒレかつ</td>
+					<td>310</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ヒレかつ">
+					    <input type="hidden" name="foodcal" value="310">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>串かつ</td>
+					<td>372</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="串かつ">
+					    <input type="hidden" name="foodcal" value="372">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ロースかつ</td>
+					<td>439</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ロースかつ">
+					    <input type="hidden" name="foodcal" value="439">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>カキフライ</td>
+					<td>299</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="カキフライ">
+					    <input type="hidden" name="foodcal" value="299">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>スパゲッティミートソース</td>
+					<td>597</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="スパゲッティミートソース">
+					    <input type="hidden" name="foodcal" value="597">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>スパゲッティカルボナーラ</td>
+					<td>830</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="スパゲッティカルボナーラ">
+					    <input type="hidden" name="foodcal" value="830">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>スパゲッティペペロンチーノ</td>
+					<td>561</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="スパゲッティペペロンチーノ">
+					    <input type="hidden" name="foodcal" value="561">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>スパゲッティ和風ツナおろし</td>
+					<td>640</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="スパゲッティ和風ツナおろし">
+					    <input type="hidden" name="foodcal" value="640">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>スパゲッティタラコ</td>
+					<td>524</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="スパゲッティタラコ">
+					    <input type="hidden" name="foodcal" value="524">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>スパゲッティボンゴレ</td>
+					<td>527</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="スパゲッティボンゴレ">
+					    <input type="hidden" name="foodcal" value="527">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ピザ(小１枚)</td>
+					<td>538</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ピザ(小１枚)">
+					    <input type="hidden" name="foodcal" value="538">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>エビグラタン</td>
+					<td>560</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="エビグラタン">
+					    <input type="hidden" name="foodcal" value="560">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>チキングラタン</td>
+					<td>647</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="チキングラタン">
+					    <input type="hidden" name="foodcal" value="647">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ポテトグラタン</td>
+					<td>687</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ポテトグラタン">
+					    <input type="hidden" name="foodcal" value="687">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ハンバーガー</td>
+					<td>300</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ハンバーガー">
+					    <input type="hidden" name="foodcal" value="300">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>チーズバーガー</td>
+					<td>368</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="チーズバーガー">
+					    <input type="hidden" name="foodcal" value="368">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>フライドポテト(S)</td>
+					<td>194</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="フライドポテト(S)">
+					    <input type="hidden" name="foodcal" value="194">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ビーフカレー</td>
+					<td>954</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ビーフカレー">
+					    <input type="hidden" name="foodcal" value="954">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>チキンカレー</td>
+					<td>690</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="チキンカレー">
+					    <input type="hidden" name="foodcal" value="690">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>野菜カレー</td>
+					<td>686</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="野菜カレー">
+					    <input type="hidden" name="foodcal" value="686">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>かつカレー</td>
+					<td>957</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="かつカレー">
+					    <input type="hidden" name="foodcal" value="957">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ドライカレー</td>
+					<td>615</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ドライカレー">
+					    <input type="hidden" name="foodcal" value="615">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ハヤシライス</td>
+					<td>728</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ハヤシライス">
+					    <input type="hidden" name="foodcal" value="728">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>エビピラフ</td>
+					<td>573</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="エビピラフ">
+					    <input type="hidden" name="foodcal" value="573">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>チキンピラフ</td>
+					<td>636</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="チキンピラフ">
+					    <input type="hidden" name="foodcal" value="636">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>オムライス</td>
+					<td>843</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="オムライス">
+					    <input type="hidden" name="foodcal" value="843">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ドリア</td>
+					<td>813</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ドリア">
+					    <input type="hidden" name="foodcal" value="813">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>キノコリゾット</td>
+					<td>382</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="キノコリゾット">
+					    <input type="hidden" name="foodcal" value="382">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ハンバーグ</td>
+					<td>437</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ハンバーグ">
+					    <input type="hidden" name="foodcal" value="437">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>和風ハンバーグ</td>
+					<td>441</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="和風ハンバーグ">
+					    <input type="hidden" name="foodcal" value="441">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ハンバーグ(デミ)</td>
+					<td>471</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ハンバーグ(デミ)">
+					    <input type="hidden" name="foodcal" value="471">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>照焼ハンバーグ</td>
+					<td>448</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="照焼ハンバーグ">
+					    <input type="hidden" name="foodcal" value="448">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>サーロインステーキ</td>
+					<td>805</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="サーロインステーキ">
+					    <input type="hidden" name="foodcal" value="805">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ヒレステーキ</td>
+					<td>507</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ヒレステーキ">
+					    <input type="hidden" name="foodcal" value="507">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ロールキャベツ</td>
+					<td>264</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ロールキャベツ">
+					    <input type="hidden" name="foodcal" value="264">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>チキンソテー</td>
+					<td>580</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="チキンソテー">
+					    <input type="hidden" name="foodcal" value="580">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ラーメン</td>
+					<td>443</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ラーメン">
+					    <input type="hidden" name="foodcal" value="443">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>塩ラーメン</td>
+					<td>401</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="塩ラーメン">
+					    <input type="hidden" name="foodcal" value="401">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>みそラーメン</td>
+					<td>477</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="みそラーメン">
+					    <input type="hidden" name="foodcal" value="477">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>五目ラーメン</td>
+					<td>665</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="五目ラーメン">
+					    <input type="hidden" name="foodcal" value="665">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>チャーシューメン</td>
+					<td>507</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="チャーシューメン">
+					    <input type="hidden" name="foodcal" value="507">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>冷やし中華</td>
+					<td>467</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="冷やし中華">
+					    <input type="hidden" name="foodcal" value="467">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>冷めん</td>
+					<td>404</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="冷めん">
+					    <input type="hidden" name="foodcal" value="404">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>あんかけかた焼きそば</td>
+					<td>918</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="あんかけかた焼きそば">
+					    <input type="hidden" name="foodcal" value="918">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>あんかけ焼きそば</td>
+					<td>517</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="あんかけ焼きそば">
+					    <input type="hidden" name="foodcal" value="517">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>焼きビーフン</td>
+					<td>627</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="焼きビーフン">
+					    <input type="hidden" name="foodcal" value="627">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>麻婆豆腐定食</td>
+					<td>648</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="麻婆豆腐定食">
+					    <input type="hidden" name="foodcal" value="648">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>青椒肉絲定食</td>
+					<td>722</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="青椒肉絲定食">
+					    <input type="hidden" name="foodcal" value="722">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>八宝菜定食</td>
+					<td>628</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="八宝菜定食">
+					    <input type="hidden" name="foodcal" value="628">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>回鍋肉定食</td>
+					<td>792</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="回鍋肉定食">
+					    <input type="hidden" name="foodcal" value="792">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>エビチリ定食</td>
+					<td>643</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="エビチリ定食">
+					    <input type="hidden" name="foodcal" value="643">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>麻婆茄子定食</td>
+					<td>685</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="麻婆茄子定食">
+					    <input type="hidden" name="foodcal" value="685">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>チャーハン</td>
+					<td>754</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="チャーハン">
+					    <input type="hidden" name="foodcal" value="754">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>五目チャーハン</td>
+					<td>703</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="五目チャーハン">
+					    <input type="hidden" name="foodcal" value="703">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ビビンバ</td>
+					<td>550</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ビビンバ">
+					    <input type="hidden" name="foodcal" value="550">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>クッパ</td>
+					<td>381</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="クッパ">
+					    <input type="hidden" name="foodcal" value="381">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>カニ玉</td>
+					<td>218</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="カニ玉">
+					    <input type="hidden" name="foodcal" value="218">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>酢豚</td>
+					<td>467</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="酢豚">
+					    <input type="hidden" name="foodcal" value="467">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>みそ炒め</td>
+					<td>250</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="みそ炒め">
+					    <input type="hidden" name="foodcal" value="250">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>レバニラ炒め(豚レバー)</td>
+					<td>220</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="レバニラ炒め(豚レバー)">
+					    <input type="hidden" name="foodcal" value="220">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ギョーザ</td>
+					<td>423</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ギョーザ">
+					    <input type="hidden" name="foodcal" value="423">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>シュウマイ</td>
+					<td>282</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="シュウマイ">
+					    <input type="hidden" name="foodcal" value="282">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>小龍包</td>
+					<td>274</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="小龍包">
+					    <input type="hidden" name="foodcal" value="274">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>春巻き</td>
+					<td>369</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="春巻き">
+					    <input type="hidden" name="foodcal" value="369">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ちまき</td>
+					<td>310</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ちまき">
+					    <input type="hidden" name="foodcal" value="310">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>にら饅頭</td>
+					<td>259</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="にら饅頭">
+					    <input type="hidden" name="foodcal" value="259">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>バンバンジー</td>
+					<td>230</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="バンバンジー">
+					    <input type="hidden" name="foodcal" value="230">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>肉マン</td>
+					<td>201</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="肉マン">
+					    <input type="hidden" name="foodcal" value="201">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>コーヒー</td>
+					<td>7</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="コーヒー">
+					    <input type="hidden" name="foodcal" value="7">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>オレンジジュース</td>
+					<td>82</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="オレンジジュース">
+					    <input type="hidden" name="foodcal" value="82">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>クリームソーダ</td>
+					<td>137</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="クリームソーダ">
+					    <input type="hidden" name="foodcal" value="137">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ミルクティー</td>
+					<td>68</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ミルクティー">
+					    <input type="hidden" name="foodcal" value="68">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ミルクココア</td>
+					<td>196</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ミルクココア">
+					    <input type="hidden" name="foodcal" value="196">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>カフェ・オレ</td>
+					<td>71</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="カフェ・オレ">
+					    <input type="hidden" name="foodcal" value="71">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ビール(中ジョッキ)</td>
+					<td>140</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ビール(中ジョッキ)">
+					    <input type="hidden" name="foodcal" value="140">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ワイン(グラス)</td>
+					<td>88</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ワイン(グラス)">
+					    <input type="hidden" name="foodcal" value="88">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>日本酒(一合)</td>
+					<td>185</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="日本酒(一合)">
+					    <input type="hidden" name="foodcal" value="185">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>焼酎(ロックグラス)</td>
+					<td>146</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="焼酎(ロックグラス)">
+					    <input type="hidden" name="foodcal" value="146">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>グレープフルーツサワー(ジョッキ)</td>
+					<td>238</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="グレープフルーツサワー(ジョッキ)">
+					    <input type="hidden" name="foodcal" value="238">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ウーロンハイ(ジョッキ)</td>
+					<td>103</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ウーロンハイ(ジョッキ)">
+					    <input type="hidden" name="foodcal" value="103">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>アイスクリーム</td>
+					<td>196</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="アイスクリーム">
+					    <input type="hidden" name="foodcal" value="196">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>プリンアラモード</td>
+					<td>219</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="プリンアラモード">
+					    <input type="hidden" name="foodcal" value="219">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>杏仁豆腐</td>
+					<td>125</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="杏仁豆腐">
+					    <input type="hidden" name="foodcal" value="125">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>コーヒーゼリー</td>
+					<td>136</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="コーヒーゼリー">
+					    <input type="hidden" name="foodcal" value="136">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>かぼちゃのタルト</td>
+					<td>343</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="かぼちゃのタルト">
+					    <input type="hidden" name="foodcal" value="343">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>レアチーズケーキ</td>
+					<td>297</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="レアチーズケーキ">
+					    <input type="hidden" name="foodcal" value="297">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>シュークリーム</td>
+					<td>209</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="シュークリーム">
+					    <input type="hidden" name="foodcal" value="209">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>チーズケーキ</td>
+					<td>281</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="チーズケーキ">
+					    <input type="hidden" name="foodcal" value="281">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ショートケーキ</td>
+					<td>292</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ショートケーキ">
+					    <input type="hidden" name="foodcal" value="292">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ミルフィーユ</td>
+					<td>448</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ミルフィーユ">
+					    <input type="hidden" name="foodcal" value="448">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ベリータルト</td>
+					<td>397</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ベリータルト">
+					    <input type="hidden" name="foodcal" value="397">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>チョコレートケーキ</td>
+					<td>352</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="チョコレートケーキ">
+					    <input type="hidden" name="foodcal" value="352">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>あんみつ</td>
+					<td>247</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="あんみつ">
+					    <input type="hidden" name="foodcal" value="247">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>みつ豆</td>
+					<td>189</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="みつ豆">
+					    <input type="hidden" name="foodcal" value="189">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>クリームみつ豆</td>
+					<td>295</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="クリームみつ豆">
+					    <input type="hidden" name="foodcal" value="295">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>クリームあんみつ</td>
+					<td>353</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="クリームあんみつ">
+					    <input type="hidden" name="foodcal" value="353">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>白玉あんみつ</td>
+					<td>260</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="白玉あんみつ">
+					    <input type="hidden" name="foodcal" value="260">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>抹茶クリーム白玉ぜんざい</td>
+					<td>428</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="抹茶クリーム白玉ぜんざい">
+					    <input type="hidden" name="foodcal" value="428">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>たいやき</td>
+					<td>211</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="たいやき">
+					    <input type="hidden" name="foodcal" value="211">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>どらやき</td>
+					<td>256</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="どらやき">
+					    <input type="hidden" name="foodcal" value="256">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>今川焼(カスタード)</td>
+					<td>197</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="今川焼(カスタード)">
+					    <input type="hidden" name="foodcal" value="197">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>ところてん</td>
+					<td>17</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="ところてん">
+					    <input type="hidden" name="foodcal" value="17">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>くずもち</td>
+					<td>184</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="くずもち">
+					    <input type="hidden" name="foodcal" value="184">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>みたらし団子</td>
+					<td>118</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="みたらし団子">
+					    <input type="hidden" name="foodcal" value="118">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>こしあんだ団子</td>
+					<td>131</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="こしあんだ団子">
+					    <input type="hidden" name="foodcal" value="131">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+				<tr>
+					<td>カステラ(一切)</td>
+					<td>160</td>
+					<td>
+					<form id="detailInfo" action="/lesson/search" method="post">
+					    <input type="hidden" name="foodname" value="カステラ(一切)">
+					    <input type="hidden" name="foodcal" value="160">
+					    <input type="submit" value="追加">
+					</form>
+				    </td>
+				</tr>
+			
+		</table>
+		<br>
+		
+	
+	<form id="calGoForm" action="/lesson/search" method="post">
+		 <input type="hidden" name="flg" value="1">
+		<input type="submit" value="計算へ">
+		</form>
+</body>
+</html>
